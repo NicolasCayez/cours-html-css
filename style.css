@@ -1,0 +1,15 @@
+p{
+    background-color: grey;
+    border:solid 5px green;
+}
+
+p:nth-child(1){
+    height:100px;
+}
+p:nth-child(2){
+    width:50%;
+}
+p:nth-child(3){
+    width:200px;
+    height:200px;
+}
