@@ -61,6 +61,37 @@
                 <input type="checkbox" name="checkboxRien" id="checkboxRien"><label for="checkboxRien">Ne rien faire</label>
             </div>
         </fieldset>
+        <fieldset>
+            <legend>Vous vous levez:</legend>
+            <div>
+                <input type="radio" name="radio" id="radio1" value="radio1" checked><label for="radio1">Le matin</label>
+                <br>
+                <input type="radio" name="radio" id="radio2" value="radio2"><label for="radio2">Le midi</label>
+                <br>
+                <input type="radio" name="radio" id="radio3" value="radio3"><label for="radio3">Le soir</label>
+                <br>
+                <input type="radio" name="radio" id="radio4" value="radio4"><label for="radio4">Le lendemain</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Fin du formulaire</legend>
+            <div>
+                <label for="choixFin">Vous en avez assez ?</label>
+                <select name="choixFin" id="choixFin">
+                    <optgroup label="Youpi">
+                        <option value="option1" selected>Youhou !</option>
+                        <option value="option2">Ouiiii</option>
+                    </optgroup>
+                    <optgroup label="Pas youpi">
+                        <option value="option3">Argh !</option>
+                        <option value="option4">Au secours !</option>
+                    </optgroup>
+                </select>
+                <br>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Annuler">
+            </div>
+        </fieldset>
     </form>
 </body>
 </html>
