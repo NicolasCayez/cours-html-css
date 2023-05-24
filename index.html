@@ -9,35 +9,58 @@
 </head>
 <body>
     <form action="" method="post">
-        <div>
-            <label for="firstName">Prénom</label>
-            <input type="text" placeholder="Ex: John" minlength="2" maxlength="20">
-        </div>
-        <div>
-            <label for="lastName">Nom</label>
-            <input type="text" placeholder="Ex: Doe" minlength="2" maxlength="20">
-        </div>
-        <div>
-            <label for="firstName">Courriel</label>
-            <input type="email" name="email" id="email" placeholder="Ex: john.doe@bleah.com">
-        </div>
-        <div>
-            <label for="firstName">Téléphone</label>
-            <input type="tel" name="tel" id="tel" placeholder="Ex: 01.02.03.04.05">
-        </div>
-        <div>
-            <label for="password">Mot de passe</label>
-            <input type="password" name="password" id="password" placeholder="EX: P@ssW04d" minlength="8" maxlength="30">
-        </div>
-        <div>
-            <label for="age">Age</label>
+        <fieldset>
+            <legend>Infos personnelles</legend>
+            <div>
+                <label for="firstName">Prénom</label>
+                <input type="text" placeholder="Ex: John" minlength="2" maxlength="20">
+            </div>
+            <div>
+                <label for="lastName">Nom</label>
+                <input type="text" placeholder="Ex: Doe" minlength="2" maxlength="20">
+            </div>
+            <div>
+                <label for="firstName">Courriel</label>
+                <input type="email" name="email" id="email" placeholder="Ex: john.doe@bleah.com">
+            </div>
+            <div>
+                <label for="firstName">Téléphone</label>
+                <input type="tel" name="tel" id="tel" placeholder="Ex: 01.02.03.04.05">
+            </div>
+            <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password" placeholder="EX: P@ssW04d" minlength="8" maxlength="30">
+            </div>
+            <div>
+                <label for="age">Age</label>
             <input type="number" name="age" id="age" placeholder="Ex: 15">
-        </div>
-        <div>
-            <label for="comment">Laissez un commentaire:</label>
-            <br>
-            <textarea name="comment" id="comment" cols="70" rows="10" placeholder="Merci pour votre message"></textarea>
-        </div>
+            </div>
+            <div>
+                <label for="comment">Laissez un commentaire:</label>
+                <br>
+                <textarea name="comment" id="comment" cols="70" rows="10" placeholder="Merci pour votre message"></textarea>
+            </div>
+            <div>
+                <label for="dateComment">Date de mon commentaire:</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="photo">Ma photo:</label>
+                <input type="file" name="photo" id="photo">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Vous préférez:</legend>
+            <div>
+                <input type="checkbox" name="checkboxHTML" id="checkboxHTML" checked><label for="checkboxHTML">Le HTML</label>
+                <br>
+                <input type="checkbox" name="checkboxCSS" id="checkboxCSS"><label for="checkboxCSS">Le CSS</label>
+                <br>
+                <input type="checkbox" name="checkboxJava" id="checkboxJava"><label for="checkboxJava">Le JavaScript</label>
+                <br>
+                <input type="checkbox" name="checkboxRien" id="checkboxRien"><label for="checkboxRien">Ne rien faire</label>
+            </div>
+        </fieldset>
     </form>
 </body>
 </html>
