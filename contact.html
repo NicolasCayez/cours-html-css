@@ -4,11 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- import de police googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <title>YOLO</title>
 </head>
 <body>
-    <h1>CONTACT</h1>
-    <a href="index.html">Contacts</a>
+    <!-- Des idées de pages à faire pour s'entrainer  avec des balises intéressantes : 
+1 page de service de vidéo (genre 1 page de vidéo  des icones de likes dislikes, avec des commentaires en dessous)
+(balises <iframe>, <img>)
+1 formulaire de contact (balises <form>, <input>, <button>)
+1 formulaire de contact ultra relou (pour tester tous les types d'input)
+1 tableau de ventes de produits (balise <table> <tr> <td>)
+-1 page CV -->
+<header>
+    <nav>
+        <div class="menuElement">
+            <a class="menuText" href="index.html">Accueil</a>
+        </div>
+        <div class="menuElement active">
+            <a class="menuText" href="contact.html">Formulaire de contact</a>
+        </div>
+        <div class="menuElement">
+            <a class="menuText" href="contactRelou.html">Formulaire de contact relou</a>
+        </div>
+        <div class="menuElement">
+            <a class="menuText" href="tableauVente.html">Tableau de ventes</a>
+        </div>
+        <div class="menuElement">
+            <a class="menuText" href="video.html">Vidéoclub</a>
+        </div>
+    </nav>
+</header>
 
+<div class="contenu">
+    <form>
+        <div>
+            <label for="name">Ton nom, pas celui de ta mère :</label>
+            <br>
+            <input type="text" id="name" name="user_name" value="Ton nom on a dit">
+        </div>
+        <div>
+            <label for="mail">Ton courriel, car ça se dit comme ça il parait&nbsp;:</label>
+            <br>
+            <input type="email" id="mail" name="user_mail" value="Bon ok email ça marche aussi">
+        </div>
+        <div>
+            <label for="msg">Un petit mot doux ?</label>
+            <br>
+            <textarea id="msg" name="user_message">Bla bla bla</textarea>
+        </div>
+        <div>
+            <button type="submit">Valider</button>
+        </div>
+    </form>
+    
+</div>
+
+<footer>
+        Copyleft : Nicolas
+</footer>
 </body>
 </html>

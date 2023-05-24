@@ -21,13 +21,13 @@
 -1 page CV -->
 <header>
     <nav>
-        <div class="menuElement active">
-            <a class="menuText" href="index.html">Accueil - mon CV</a>
+        <div class="menuElement">
+            <a class="menuText" href="index.html">Accueil</a>
         </div>
         <div class="menuElement">
             <a class="menuText" href="contact.html">Formulaire de contact</a>
         </div>
-        <div class="menuElement">
+        <div class="menuElement active">
             <a class="menuText" href="contactRelou.html">Formulaire de contact relou</a>
         </div>
         <div class="menuElement">
@@ -40,22 +40,54 @@
 </header>
 
 <div class="contenu">
-    <div class="cv">
-        <div id="case1-1">
-            <img src="images/nico.jpg" alt="super odinaire">
+    <form>
+        <div>
+            <label>Ton nom, pas celui de ta mère :</label>
+            <br>
+            <input type="text" value="Ton nom on a dit">
         </div>
         <div>
-            <h1>Nico le rigolo</h1>
+            <label>une date :</label>
+            <br>
+            <input type="date">
+
         </div>
         <div>
-            <h2>Blaguiste amateur</h2>
-            <h3>42 ans et pas toutes ses dents</h3>
-            <h3>Deux enfants et du sommeil en moins</h3>
-            <h3>Champion d'europe de Beach-Curling</h3>
+            <label>Ton courriel, car ça se dit comme ça il parait&nbsp;:</label>
+            <br>
+            <input type="email" value="Bon ok email ça marche aussi">
         </div>
-        <br>
-    </div>
-</div>
+        <div>
+            <label>Un petit mot doux ?</label>
+            <br>
+            <textarea id="msg" name="user_message">Bla bla bla</textarea>
+        </div>
+        <div>
+            <label>un fichier :</label>
+            <br>
+            <input type="file">
+        </div>
+        <div>
+            <label>une couleur :</label>
+            <br>
+            <input type="color">
+        </div>
+        <div>
+            <label>des choix :</label>
+            <br>
+            <input type="checkbox">
+            <br>
+            <input type="radio">
+        </div>
+        <div>
+            <label>un curseur :</label>
+            <br>
+            <input type="range">
+        </div>
+        <div>
+            <button type="submit">Valider</button><button type="reset">Effacer</button>
+        </div>
+    </form></div>
 
 <footer>
         Copyleft : Nicolas

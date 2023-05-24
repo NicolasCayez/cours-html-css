@@ -21,8 +21,8 @@
 -1 page CV -->
 <header>
     <nav>
-        <div class="menuElement active">
-            <a class="menuText" href="index.html">Accueil - mon CV</a>
+        <div class="menuElement">
+            <a class="menuText" href="index.html">Accueil</a>
         </div>
         <div class="menuElement">
             <a class="menuText" href="contact.html">Formulaire de contact</a>
@@ -30,7 +30,7 @@
         <div class="menuElement">
             <a class="menuText" href="contactRelou.html">Formulaire de contact relou</a>
         </div>
-        <div class="menuElement">
+        <div class="menuElement active">
             <a class="menuText" href="tableauVente.html">Tableau de ventes</a>
         </div>
         <div class="menuElement">
@@ -40,22 +40,40 @@
 </header>
 
 <div class="contenu">
-    <div class="cv">
-        <div id="case1-1">
-            <img src="images/nico.jpg" alt="super odinaire">
-        </div>
-        <div>
-            <h1>Nico le rigolo</h1>
-        </div>
-        <div>
-            <h2>Blaguiste amateur</h2>
-            <h3>42 ans et pas toutes ses dents</h3>
-            <h3>Deux enfants et du sommeil en moins</h3>
-            <h3>Champion d'europe de Beach-Curling</h3>
-        </div>
-        <br>
-    </div>
-</div>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">Les ventes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Référence</td>
+                <td>Nom</td>
+                <td>Prix unitaire</td>
+                <td>Qté</td>
+                <td>Prix total</td>
+            </tr>
+            <tr>
+                <td>AZ20354</td>
+                <td>produit miracle</td>
+                <td class="prix">599.00 €</td>
+                <td class="qte">2</td>
+                <td class="prix">999.98 €</td>
+            </tr>
+            <tr>
+                <td>AB20458</td>
+                <td>produit bidon</td>
+                <td class="prix">34.50 €</td>
+                <td class="qte">1</td>
+                <td class="prix">34.50 €</td>
+            </tr>
+            <tr>
+                <td class="empty" colspan="4"></td>
+                <td class="prix">1 034.48 €</td>
+            </tr>
+        </tbody>
+    </table></div>
 
 <footer>
         Copyleft : Nicolas

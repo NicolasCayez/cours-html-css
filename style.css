@@ -1,18 +1,116 @@
-/* Element selector */
-h1,p{
-    color: chartreuse;
+header{
+    background-color: lightgrey;
+    display: flex;
+    height: 100px;
+    width: 100%;
 }
 
-/* Class selector */
-.colorCool{
-    color: blueviolet;
+footer{
+    background-color: lightgrey;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0;
 }
 
-/* ID selector */
-#super{
-    color:red;
+nav{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
 }
 
-.cool{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.menuElement{
+    display:table-cell;
+    padding: 5px 20px 5px 20px;
+    height:30px;
+    width: 15em;
+    margin: 1em;
+    border-radius: 20% 80% 20% 80% / 50% 50% 50% 50% ;
+    border-color:whitesmoke;
+    background-color:cornflowerblue;
+    text-align: center;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.menuText{
+    font-family: 'Manrope', sans-serif;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active{
+    background-color: chocolate;
+}
+
+body{
+    background-color: rgb(47, 126, 199);
+}
+.contenu{
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    border-radius: 71% 29% 63% 37% / 8% 46% 54% 92%;
+    background-color: whitesmoke;
+    margin: 20px 200px;
+    padding: 100px 200px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+iframe{
+    border-radius : 25px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+input, textarea{
+    width: 500px;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    empty-cells:hide;
+}
+
+td, th{
+    border: solid 1px;
+
+}
+
+table{
+    display:table
+}
+
+.empty{
+    border-bottom: none;
+    border-left: none;
+}
+
+.prix{
+    text-align: end;
+}
+
+.qte{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+}
+
+.cv{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-width: 10px;
+}
+#case1-1{
+    grid-row-start: 1;
+    grid-row-end: 10;
+    
+
 }
