@@ -1,0 +1,7 @@
+div{
+    background-color: chartreuse;
+    border: solid 1px black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
