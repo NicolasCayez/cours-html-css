@@ -1,0 +1,18 @@
+/* Element selector */
+h1,p{
+    color: chartreuse;
+}
+
+/* Class selector */
+.colorCool{
+    color: blueviolet;
+}
+
+/* ID selector */
+#super{
+    color:red;
+}
+
+.cool{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
