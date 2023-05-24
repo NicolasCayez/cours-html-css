@@ -1,0 +1,16 @@
+table{
+    border: double purple;
+    border-collapse: collapse;
+}
+
+caption{
+    color:purple;
+}
+
+th, td{
+    border:solid 2px;
+}
+
+th{
+    background-color: cadetblue;
+}
