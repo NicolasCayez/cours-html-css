@@ -1,0 +1,36 @@
+    Exercice supplémentaire positionnement CSS
+        ( FACULTATIF ) : 
+
+    Créez une page HTML avec quatre divs de tailles
+    et couleurs différentes.
+
+    Donnez à chacune des divs un identifiant unique
+    pour les sélectionner en CSS.
+
+    Définissez la propriété "position" sur "relative"
+    pour la première div.
+
+    Utilisez les propriétés "top", "right", "bottom"
+    et "left" pour déplacer la première div de façon
+    à la faire chevaucher les autres divs.
+
+    Définissez la propriété "position" sur "absolute"
+    pour la deuxième div.
+
+    Utilisez les propriétés "top", "right", "bottom"
+    et "left" pour déplacer la deuxième div par rapport
+    à la première div.
+
+    Définissez la propriété "position" sur "fixed" pour
+    la troisième div.
+
+    Utilisez les propriétés "top" et "left" pour fixer
+    la troisième div en haut à gauche de la page,
+    indépendamment du défilement.
+
+    Définissez la propriété "position" sur "static"
+    pour la quatrième div (par défaut).
+
+    Vérifiez comment les divs sont positionnées sur la
+    page en fonction de leur position et des propriétés
+    "top", "right", "bottom" et "left".
