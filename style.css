@@ -1,0 +1,13 @@
+img{
+    margin: 200px;
+}
+
+
+img:hover{
+    transform: scale(2)
+}
+
+img:active{
+    transform: rotate(180deg);
+    /* 180deg ou 0.5turn */
+}
