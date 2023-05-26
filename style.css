@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    transition: color 1s linear;
+}
+
+h1:hover{
+    color: green;
+}
+
+p{
+    transition: transform 2s;
+}
+
+p:active{
+    transform: rotate(720deg);
+}
